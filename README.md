@@ -1,20 +1,22 @@
 select-all
 ==========
 
-><html>
->    <head></head>
->    <body>
->        <div>
->            <input type='checkbox' class='select-all' />
->            <div id='container'>
->                <input type='checkbox' class='select-all'>a</input>
->                <input type='checkbox' class='select-all'>b</input>
->                <input type='checkbox' class='select-all'>c</input>
->                <input type='checkbox' class='select-all'>d</input>
->            </div>
->        </div>
->    </body>
-></html>
+>&lt;html&gt;
+>    &lt;head&gt;&lt;/head&gt;
+>    &lt;body&gt;
+>        &lt;div&gt;
+>            &lt;input type='checkbox' class='select-all' /&gt;
+>            &lt;div id='container'&gt;
+>                &lt;input type='checkbox' class='select-all'&gt;a&lt;/input&gt;
+>                &lt;input type='checkbox' class='select-all'&gt;b&lt;/input&gt;
+>                &lt;input type='checkbox' class='select-all'&gt;c&lt;/input&gt;
+>                &lt;input type='checkbox' class='select-all'&gt;d&lt;/input&gt;
+>            &lt;/div&gt;
+>        &lt;/div&gt;
+>    &lt;/body&gt;
+>&lt;/html&gt;
+
+Use:
 
 >$('.select-all').selectall('#container');
 
