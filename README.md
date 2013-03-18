@@ -1,6 +1,7 @@
 select-all
 ==========
 
+<code>
 >&lt;html&gt;<br />
 >    &lt;head&gt;&lt;/head&gt;<br />
 >    &lt;body&gt;<br />
@@ -15,15 +16,16 @@ select-all
 >        &lt;/div&gt;<br />
 >    &lt;/body&gt;<br />
 >&lt;/html&gt;
+</code>
 
 Use:
 
->$('.select-all').selectall('#container');
+<code>$('.select-all').selectall('#container');</code>
 
 or
 
->$('.select-all').selectall('#container input:checkbox');
+<code>$('.select-all').selectall('#container input:checkbox');</code>
 
 or
 
->$('.select-all').selectall($('#container input:checkbox'));
+<code>$('.select-all').selectall($('#container input:checkbox'));</code>
