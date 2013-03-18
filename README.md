@@ -1,31 +1,35 @@
 select-all
 ==========
 
+<!-- language: lang-html -->
 <code>
-<html><br />
-    <head></head><br />
-    <body><br />
-        <div><br />
-            <input type='checkbox' class='select-all' /><br />
-            <div id='container'><br />
-                <input type='checkbox' class='select-all'>a</input><br />
-                <input type='checkbox' class='select-all'>b</input><br />
-                <input type='checkbox' class='select-all'>c</input><br />
-                <input type='checkbox' class='select-all'>d</input><br />
-           </div><br />
-        </div><br />
-    </body><br />
-</html>
+&lt;html&gt;<br />
+    &lt;head&gt;&lt;/head&gt;<br />
+    &lt;body&gt;<br />
+        &lt;div&gt;<br />
+            &lt;input type='checkbox' class='select-all' /&gt;<br />
+            &lt;div id='container'&gt;<br />
+                &lt;input type='checkbox' class='select-all'&gt;a&lt;/input&gt;<br />
+                &lt;input type='checkbox' class='select-all'&gt;b&lt;/input&gt;<br />
+                &lt;input type='checkbox' class='select-all'&gt;c&lt;/input&gt;<br />
+                &lt;input type='checkbox' class='select-all'&gt;d&lt;/input&gt;<br />
+           &lt;/div&gt;<br />
+        &lt;/div&gt;<br />
+    &lt;/body&gt;<br />
+&lt;/html&gt;
 </code>
 
 Use:
 
+<!-- language: lang-js -->
 <code>$('.select-all').selectall('#container');</code>
 
 or
 
+<!-- language: lang-js -->
 <code>$('.select-all').selectall('#container input:checkbox');</code>
 
 or
 
+<!-- language: lang-js -->
 <code>$('.select-all').selectall($('#container input:checkbox'));</code>
