@@ -3,7 +3,7 @@ select-all
 
 <!-- language: lang-html -->
 <code>
-&lt;html&gt;<br />
+<html><br />
     &lt;head&gt;&lt;/head&gt;<br />
     &lt;body&gt;<br />
         &lt;div&gt;<br />
