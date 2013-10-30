@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jacobboland/select-all.png)](https://travis-ci.org/jacobboland/select-all)
+
 select-all
 ==========
 
