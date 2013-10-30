@@ -6,12 +6,14 @@
         "preinstall": "npm i -g grunt-cli && npm i -g grunt-init"
     },
     "dependencies": {
-        "express": "3.0.6",
-        "grunt": "0.4.0rc7",
-        "grunt-contrib-jshint": "*"
     },
     "devDependencies": {
         "grunt": "0.4.0rc7",
-        "grunt-contrib-qunit": "~0.2.0"
+        "grunt-cli": "~0.1.5",
+        "grunt-contrib-qunit": "~0.2.0",
+        "grunt-contrib-jshint": "0.3.0"
+    },
+    "scripts": {
+        "test": "grunt test"
     }
 }
